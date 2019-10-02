@@ -22,7 +22,6 @@ namespace Shapes.Tests
         {
             //Arrange
             Circle newCircle = new Circle(5);
-            // double expectedResult = 31.4;
             //Act
             double result = newCircle.GetCircumference();
             //Assert
