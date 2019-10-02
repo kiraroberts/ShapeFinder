@@ -16,5 +16,17 @@ namespace Shapes.Tests
             //Assert
             Assert.AreEqual(result, 10);
         }
+
+        [TestMethod]
+        public void Circle_GetCircumference_CircumferenceOfCircle()
+        {
+            //Arrange
+            Circle newCircle = new Circle(5);
+            // double expectedResult = 31.4;
+            //Act
+            double result = newCircle.GetCircumference();
+            //Assert
+            Assert.AreEqual(result, 31.4);
+        }
     }
 }
