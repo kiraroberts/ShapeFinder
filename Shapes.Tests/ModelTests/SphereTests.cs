@@ -16,5 +16,15 @@ namespace Shapes.Tests
             //Assert
             Assert.AreEqual(result, 314);
         }
+        [TestMethod]
+        public void Sphere_GetVolume_VolumeOfSphere()
+        {
+            //Arrange
+            Sphere newSphere = new Sphere(5);
+            //Act
+            double result = newSphere.GetVolume();
+            //Assert
+            Assert.AreEqual(523.6, result);
+        }
     }
 }
