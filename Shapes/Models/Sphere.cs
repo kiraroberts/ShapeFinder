@@ -13,6 +13,7 @@ namespace Shapes.Models
 
         public double GetSurfaceArea()
         {
+            //add math.pi and test later
             return Math.Round(4 * 3.14 * (Radius * Radius), 2);
         }
 
